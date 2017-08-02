@@ -7,4 +7,8 @@ public abstract class Vehicle {
   public Vehicle(int averageSpeed) {
     this.averageSpeed = averageSpeed;
   }
+
+  public int driveTime(int distance) {
+    return distance/this.averageSpeed;
+  }
 }

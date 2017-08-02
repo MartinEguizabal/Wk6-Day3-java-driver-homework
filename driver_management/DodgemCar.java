@@ -10,7 +10,4 @@ public class DodgemCar extends Vehicle implements Driveable {
     this.seatsNumber = seatsNumber;
   }
 
-  public int driveTime(int distance) {
-    return distance/this.averageSpeed;
-  }
 }
