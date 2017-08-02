@@ -1,5 +1,5 @@
 package behaviours;
 
-pulic interface Driveable {
+public interface Driveable {
   public int driveDistance(int distance);
 }
