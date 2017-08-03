@@ -10,4 +10,7 @@ public class DodgemCar extends Vehicle implements Driveable {
     this.seatsNumber = seatsNumber;
   }
 
+  public int amountSeats(){
+    return this.seatsNumber;
+  }
 }
